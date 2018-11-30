@@ -7,4 +7,5 @@ os:
  - linux
  - osx
 sudo: false
-install: brew install check
+before_install:
+ - sudo apt-get install check
