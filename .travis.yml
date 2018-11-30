@@ -7,3 +7,4 @@ os:
  - linux
  - osx
 sudo: false
+install: brew install check
