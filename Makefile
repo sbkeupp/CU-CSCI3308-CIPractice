@@ -1,6 +1,4 @@
-# Andy Sayler
-# CI Practice
-# Summer 2014
+# Shelby Keupp
 
 CC = gcc
 CFLAGS = -c -g -Wall -Wextra
@@ -10,6 +8,9 @@ PKG_MATH_LIBS = -lm
 PKG_CHECK_LIBS = `pkg-config --libs check`
 
 .PHONY: all dep clean
+
+.PHONY: test
+	./geometry_test
 
 all: geometry_test
 
