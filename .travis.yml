@@ -1,11 +1,9 @@
 language: c
 script: make
 compiler:
- - clang
  - gcc
 os:
  - linux
- - osx
 sudo: false
 before_install:
  - sudo apt-get install check
