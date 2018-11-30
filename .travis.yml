@@ -1,3 +1,7 @@
 language: c
-script: scons
-compiler: clang
+compiler: 
+	- clang
+	- gcc
+os:
+	- linux
+	- osx
